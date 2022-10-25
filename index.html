@@ -11,5 +11,12 @@
 <h1>My POP UP</h1>
 <p>My first popup.</p>
 
+  <p>Date: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>
+
 </body>
 </html>
